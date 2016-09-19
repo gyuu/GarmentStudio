@@ -1,3 +1,23 @@
+# GarmentStudio
+
+## 环境搭建
+
+使用 QT 5.7, MinGW 版本。
+
+### freeglut
+
+下载 http://www.transmissionzero.co.uk/computing/using-glut-with-mingw/ 提供的 freeglut 包。
+
+解压得到 bin，lib，include。
+
+1. 把 include 中的 GL 文件夹 放到 Delfem 库的 include 中。
+2. 将 lib 下的两个 .a 文件拷贝到 DelFEM\lib 目录下。
+3. 把 freeglut.dll 的 32 位版本拷到项目根目录下。
+
+### 使用 QT 自带的 mingw32-make 进行编译即可。
+
+## ORIGINAL README
+
 ================================================
 SOURCE README FOR SENSITIVE COUTURE
 Nobuyuki Umetani (umetani@ui.is.s.u-tokyo.ac.jp)

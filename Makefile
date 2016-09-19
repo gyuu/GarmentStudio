@@ -37,4 +37,4 @@ clean:
 	$(CXX) $(CFLAGS) $(INCLUDES) -c $<
 
 libdelfem.a:
-	make -C DelFEM
+	mingw32-make -C DelFEM
