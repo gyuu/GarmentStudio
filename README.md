@@ -18,11 +18,8 @@
 
 ## ORIGINAL README
 
-================================================
 SOURCE README FOR SENSITIVE COUTURE
 Nobuyuki Umetani (umetani@ui.is.s.u-tokyo.ac.jp)
-================================================
-
 
 REFERENCES
 ==========
